@@ -1,0 +1,41 @@
+.button_3 a{
+    padding: 15px 0;
+    font-size: 20px;
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.button_3 a:after{
+    content: '';
+    width: 0;
+    z-index: 0;
+    left: 0;
+    transition: 0.5s linear;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: #fff;
+}
+.button_3 a span{
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.button_3 a:hover{
+    color: #000;
+}
+.button_3 a:hover:after{
+    width: 100%;
+}
