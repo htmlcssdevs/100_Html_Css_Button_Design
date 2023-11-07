@@ -1,0 +1,40 @@
+@import url(../css/button_1.css);
+@import url(../css/button_2.css);
+/* default css start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0daa8e;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: block;
+    color: #fff;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.button_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.single_button_item {
+    width: 266px;
+}
+.single_button_item h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #000;
+}

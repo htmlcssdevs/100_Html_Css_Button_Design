@@ -1,0 +1,15 @@
+.button_2 a{
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 15px 0;
+    font-size: 20px;
+    background-color: #000;
+    border: 2px solid #000;
+}
+.button_2 a:hover{
+    background-color: #fff;
+    color: #000;
+}
