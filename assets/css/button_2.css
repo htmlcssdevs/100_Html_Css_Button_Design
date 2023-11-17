@@ -6,8 +6,8 @@
     -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     padding: 15px 0;
     font-size: 20px;
-    background-color: #000;
-    border: 2px solid #000;
+    background-color: #0d6efd;
+    border: 2px solid #0d6efd;
 }
 .button_2 a:hover{
     background-color: #fff;

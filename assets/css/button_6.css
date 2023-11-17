@@ -12,13 +12,13 @@
 .button_6 a:hover{
     background-color: #1e9bff;
     box-shadow: 0 0 35px #1e9bff;
-    color: #1e9bff;
+    color: #fff;
 }
 .button_6 a:before{
     content: "";
     position: absolute;
     inset: 2px;
-    background: #27282c;
+    background: #0d6efd;
 }
 .button_6 a span{
     position: relative;
@@ -36,7 +36,7 @@
     left: 80%;
     width: 10px;
     height: 4px;
-    background: #27282c;
+    background: #0d6efd;
     transform: translateX(-50%) skewX(325deg);
     -webkit-transform: translateX(-50%) skewX(325deg);
     -moz-transform: translateX(-50%) skewX(325deg);
@@ -55,7 +55,7 @@
     left: 20%;
     width: 10px;
     height: 4px;
-    background: #27282c;
+    background: #0d6efd;
     transform: translateX(-50%) skewX(325deg);
     -webkit-transform: translateX(-50%) skewX(325deg);
     -moz-transform: translateX(-50%) skewX(325deg);
