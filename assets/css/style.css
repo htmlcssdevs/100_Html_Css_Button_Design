@@ -3,6 +3,7 @@
 @import url(../css/button_3.css);
 @import url(../css/button_4.css);
 @import url(../css/button_5.css);
+@import url(../css/button_6.css);
 /* default css start here */
 *{
     margin: 0;
@@ -25,6 +26,7 @@ a{
     -o-border-radius: 6px;
     display: block;
     color: #fff;
+    font-size: 20px;
 }
 .container{
     max-width: 1600px;
@@ -37,6 +39,7 @@ a{
 }
 .single_button_item {
     width: 266px;
+    margin-bottom: 50px;
 }
 .single_button_item h3 {
     font-size: 24px;
