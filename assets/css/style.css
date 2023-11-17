@@ -5,6 +5,10 @@
 @import url(../css/button_5.css);
 @import url(../css/button_6.css);
 @import url(../css/button_7.css);
+@import url(../css/button_8.css);
+@import url(../css/button_9.css);
+@import url(../css/button_10.css);
+@import url(../css/button_11.css);
 /* default css start here */
 *{
     margin: 0;
@@ -29,6 +33,7 @@ a{
     color: #fff;
     font-size: 20px;
     position: relative;
+    padding: 15px 0;
 }
 .container{
     max-width: 1600px;

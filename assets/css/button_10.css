@@ -1,0 +1,12 @@
+.button_10 a::before, .button_11 a::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+}
+.button_10 a:hover::before, .button_11 a:hover::before{
+    height: 380%;
+}
